@@ -1,0 +1,96 @@
+
+body {
+    background: rgb(234, 114, 103);
+    font-family: helvetica;
+}
+h1 {
+    font-size: 20px;
+}
+a {
+    color: navy;
+    text-decoration: underline;
+}
+a:hover {
+    color:navy;
+    text-decoration: none;
+}
+h2 {
+    font-size: 18px;
+}
+p {
+    font-size: 16px;
+ }
+ nav {
+    background-color: rgb(255, 255, 255);
+    height: 25 px;
+    }
+ nav ul li {
+     list-style-type: none;
+     width: 150px,
+     float: left;
+     text-align: center;
+}
+ul li {
+    text-decoration: none;
+    color: rgb(234, 114, 103);
+    line-height: 50px;
+    display: inline-block
+}
+ div.logo {
+     width: 23%;
+     padding: 1%;
+     text-align: center;
+ }
+
+section.heroImg {
+    height: 600px;
+    padding: 25px
+}
+
+
+footer {
+    background-color: #373738;
+    width: 100%;
+    height: 75px;
+    padding: 60px 0px;
+    position: relative;
+    margin-bottom: 100px
+}
+ .footer ul {
+        padding: 20px;
+           }
+ ul li {
+        padding: 20px;
+        }
+footer ul {
+    display: inline-block;
+    vertical-align: bottom;
+    padding-left: 50px
+}
+ul li {
+        padding: auto;
+                   }
+.flexContainer {
+    display:flex;
+}
+.skill1 {
+    width: 33%,
+    background-color: white;
+    text-decoration: none;
+    color: navy;
+}
+.skill2 {
+    width: 33%,
+    background-color: white;
+    text-decoration: none;
+    color: navy;
+}
+.skill3 {
+    width: 33%,
+    background-color=white;
+    text-decoration: none;
+    color: navy;
+}
+.workGrid {
+    display: grid;
+}
